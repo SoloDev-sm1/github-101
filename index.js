@@ -1,11 +1,12 @@
 const age = 24
 const name = 'John Doe'
 
-function Greet() {
-    console.log("hello");
+function Greet(...args) {
+    const [msg, name, age] = args;
+    console.log(`${msg}, ${name}! You are ${age} years old.`);
 }
 
-Greet()
+Greet("hey","sahil","22")
 
 let sum = (a, b) => a + b
 
