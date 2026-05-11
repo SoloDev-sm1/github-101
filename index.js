@@ -8,6 +8,7 @@ function Greet(...args) {
 
 Greet("hey","sweety","22")
 Greet("hey","sahil","23")
+Greet("hey","alina","22")
 
 let sum = (a, b) => a + b
 
