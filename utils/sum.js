@@ -4,3 +4,5 @@ function sum(...args) {
 
 sum(1, 2, 3); // returns 6
 sum(4, 5); // returns 9
+sum(10); // returns 10
+sum(); // returns 0
