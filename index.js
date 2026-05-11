@@ -6,7 +6,8 @@ function Greet(...args) {
     console.log(`${msg}, ${name}! You are ${age} years old.`);
 }
 
-Greet("hey","sahil","22")
+Greet("hey","sweety","22")
+Greet("hey","sahil","23")
 
 let sum = (a, b) => a + b
 
